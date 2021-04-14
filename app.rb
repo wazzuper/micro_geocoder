@@ -1,9 +1,6 @@
 # frozen_string_literal: true
 
 require 'sinatra/base'
-require './lib/geocoder'
-require './serializers/success_serializer'
-require './serializers/failure_serializer'
 
 class App < Sinatra::Base
   configure do
